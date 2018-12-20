@@ -1,5 +1,5 @@
 def my_each(array) # put argument(s) here
-  if block_given?
+
     i = 0
 
     while i<array.length
@@ -7,7 +7,5 @@ def my_each(array) # put argument(s) here
       i+=1
     end
     array
-  else
-    puts "No block was given."
-  end
+
 end
